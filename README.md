@@ -1,4 +1,4 @@
-# Dependencies
+# Dependencies- Written in Python 3. 
 TensorFlow
 
 OpenCV
@@ -14,8 +14,6 @@ matplotlib
 # TensorFlow-Image-Classification-Convolutional-Neural-Networks
 
 This is a repository containing datasets of 6400 training images and 1243 testing images. 
-
-Writtem in Python 3. 
 
 Classes are table/glass.
 
@@ -57,8 +55,3 @@ A sample photo of glass:
 A sample photo of table:
 
 ![alt text](https://github.com/MuhammedBuyukkinaci/TensorFlow-Image-Classification-Convolutional-Neural-Networks/blob/master/table_1488.jpg)
-
-
-
-
-
