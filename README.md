@@ -14,7 +14,7 @@ Download dataset from the link below. It is 101 MB:
 
 https://www.dropbox.com/s/ezmsiz0p364shxz/datasets.rar?dl=0
 
-Extract files from datasets.rar . Then put it in TensorFlow-Image-Classification-Convolutional-Neural-Networks
+Extract files from datasets.rar . Then put it in TensorFlow-Image-Classification-Convolutional-Neural-Networks .
 
 
 
