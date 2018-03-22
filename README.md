@@ -25,10 +25,6 @@ There is no high-level API like Keras or TFLearn. Just TensorFlow. I highly reco
 
 I trained on GTX 1050. 1 epoch lasted 2 minutes approximately.
 
-
-
-1 INPUT LAYER, 4 CONVOLUTION LAYER, 4 POOLING LAYER, 2 FULLY CONNECTED LAYER, 2 DROPOUT LAYER, 1 OUTPUT LAYER.
-
 There is no problematic image in training and testing dataset.
 
 Download dataset from the link below. It is 101 MB:
@@ -49,6 +45,7 @@ Cross entropy loss is plotted below.
 
 ![alt text](https://github.com/MuhammedBuyukkinaci/TensorFlow-Image-Classification-Convolutional-Neural-Networks/blob/master/loss.png)
 
+1 INPUT LAYER, 4 CONVOLUTION LAYER, 4 POOLING LAYER, 2 FULLY CONNECTED LAYER, 2 DROPOUT LAYER, 1 OUTPUT LAYER.
 The architecture used in CNN's is below:
 
 ![alt text](https://github.com/MuhammedBuyukkinaci/TensorFlow-Image-Classification-Convolutional-Neural-Networks/blob/master/ARCHITECTURE.png)
