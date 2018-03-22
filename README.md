@@ -6,7 +6,9 @@ Classes are table/glass.
 
 Classes are equal(3200 glass -3200 table). 
 
-There is no high-level API like Keras or TFLearn. Just TensorFlow.
+There is no high-level API like Keras or TFLearn. Just TensorFlow. I highly recommend training on GPU, rather than CPU.
+
+1 INPUT LAYER, 4 CONVOLUTION LAYER, 4 POOLING LAYER, 2 FULLY CONNECTED LAYER, 2 DROPOUT LAYER, 1 OUTPUT LAYER.
 
 There is no problematic image in training and testing dataset.
 
