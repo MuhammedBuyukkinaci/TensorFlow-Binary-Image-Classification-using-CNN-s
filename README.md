@@ -6,7 +6,7 @@ Classes are table/glass.
 
 Classes are equal(3200 glass -3200 table). 
 
-There is no high-level API like Keras or TFLearn. Pure TensorFlow
+There is no high-level API like Keras or TFLearn. Just TensorFlow.
 
 There is no problematic image in training and testing dataset.
 
