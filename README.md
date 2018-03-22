@@ -4,7 +4,11 @@ This is a repository containing datasets of 6400 training images and 1243 testin
 
 Classes are table/glass.
 
-This is a photo of glass:
+A sample photo of glass:
+
+![alt text](https://github.com/MuhammedBuyukkinaci/TensorFlow-Image-Classification-Convolutional-Neural-Networks/blob/master/glass_16.jpg)
+
+A sample photo of table:
 
 ![alt text](https://github.com/MuhammedBuyukkinaci/TensorFlow-Image-Classification-Convolutional-Neural-Networks/blob/master/table_1488.jpg)
 
