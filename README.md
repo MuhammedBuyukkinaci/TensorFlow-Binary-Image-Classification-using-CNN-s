@@ -4,6 +4,10 @@ This is a repository containing datasets of 6400 training images and 1243 testin
 
 Classes are table/glass.
 
+This is a photo of glass:
+
+![alt text](https://github.com/MuhammedBuyukkinaci/TensorFlow-Image-Classification-Convolutional-Neural-Networks/blob/master/table_1488.jpg)
+
 Classes are equal(3200 glass -3200 table). 
 
 There is no high-level API like Keras or TFLearn. Just TensorFlow.
