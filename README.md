@@ -1,12 +1,31 @@
+# Dependencies
+TensorFlow
+
+OpenCV
+
+Numpy
+
+Tqdm
+
+pandas
+
+matplotlib
+
 # TensorFlow-Image-Classification-Convolutional-Neural-Networks
 
 This is a repository containing datasets of 6400 training images and 1243 testing images. 
 
+Writtem in Python 3. 
+
 Classes are table/glass.
 
-Classes are equal(3200 glass -3200 table). 
+Classes are equal(3200 glass - 3200 table). 
 
 There is no high-level API like Keras or TFLearn. Just TensorFlow. I highly recommend training on GPU, rather than CPU.
+
+I trained on GTX 1050. 1 epoch lasted 2 minutes approximately.
+
+
 
 1 INPUT LAYER, 4 CONVOLUTION LAYER, 4 POOLING LAYER, 2 FULLY CONNECTED LAYER, 2 DROPOUT LAYER, 1 OUTPUT LAYER.
 
