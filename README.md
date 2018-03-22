@@ -28,6 +28,10 @@ Cross entropy loss is plotted below.
 
 ![alt text](https://github.com/MuhammedBuyukkinaci/TensorFlow-Image-Classification-Convolutional-Neural-Networks/blob/master/loss.png)
 
+The architecture used in CNN's is below:
+
+![alt text](https://github.com/MuhammedBuyukkinaci/TensorFlow-Image-Classification-Convolutional-Neural-Networks/blob/master/ARCHITECTURE.png)
+
 A sample photo of glass:
 
 ![alt text](https://github.com/MuhammedBuyukkinaci/TensorFlow-Image-Classification-Convolutional-Neural-Networks/blob/master/glass_16.jpg)
