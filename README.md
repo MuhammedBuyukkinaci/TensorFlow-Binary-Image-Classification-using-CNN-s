@@ -16,6 +16,8 @@ https://www.dropbox.com/s/ezmsiz0p364shxz/datasets.rar?dl=0
 
 Extract files from datasets.rar . Then put it in TensorFlow-Image-Classification-Convolutional-Neural-Networks .
 
+
+
 A sample photo of glass:
 
 ![alt text](https://github.com/MuhammedBuyukkinaci/TensorFlow-Image-Classification-Convolutional-Neural-Networks/blob/master/glass_16.jpg)
