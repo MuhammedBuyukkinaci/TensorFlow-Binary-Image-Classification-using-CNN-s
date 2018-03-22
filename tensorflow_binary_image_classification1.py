@@ -200,7 +200,8 @@ logloss_list = []
 
 saver = tf.train.Saver()
 
-%%time
+#%%time
+#If you are using CPU, make 3 lines below comment and remove config in config.
 config = tf.ConfigProto(allow_soft_placement=True)
 config.gpu_options.allow_growth = True
 config.gpu_options.allocator_type = 'BFC'
@@ -227,15 +228,10 @@ with tf.Session(config=config) as sess:
 
 
 import pandas as pd
-
+#ACCURACY ON CV DATA.
 pd.Series(acc_list).plot(kind='line',title='Accuracy on CV data')
-
+#CV ERROR PLOTTING
 pd.Series(logloss_list).plot(kind='line',figsize=(12,7),title='CV ERROR')
-
-
-
-
-
 
 
 
