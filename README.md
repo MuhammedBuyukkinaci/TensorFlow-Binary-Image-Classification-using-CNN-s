@@ -1,9 +1,13 @@
 # TensorFlow-Image-Classification-Convolutional-Neural-Networks
-This is a binary image classification project using Convolutional Neural Networks and TensorFlow API(no Keras) on Python.
+This is a binary image classification project using Convolutional Neural Networks and TensorFlow API(no Keras) on Python 3.
 [Read all story in Turkish](https://medium.com/@mubuyuk51/tensorflow-i%CC%87le-i%CC%87kili-binary-resim-s%C4%B1n%C4%B1fland%C4%B1rma-69b15085f92c)
 # Dependencies
 
 ```pip install -r requirements.txt```
+
+or
+
+```pip3 install -r requirements.txt```
 
 # Training
 ```python tensorflow_binary_image_classification1.py ```
