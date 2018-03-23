@@ -48,7 +48,7 @@ with tf.Session() as sess
 # ARCHITECTURE
 
 1 INPUT LAYER, 4 CONVOLUTION LAYER, 4 POOLING LAYER, 2 FULLY CONNECTED LAYER, 2 DROPOUT LAYER, 1 OUTPUT LAYER.
-The architecture used in CNN's is below:
+The architecture used is below:
 
 ![alt text](https://github.com/MuhammedBuyukkinaci/TensorFlow-Image-Classification-Convolutional-Neural-Networks/blob/master/MY_ARCHITECTURE.png) 
 
