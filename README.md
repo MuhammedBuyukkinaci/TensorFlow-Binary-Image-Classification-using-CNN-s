@@ -37,7 +37,7 @@ test_data_bi.npy is containing 1243 testing photos with labels.
 
 Accuracy score reached 90 percent on CV after 50 epochs.
 
-![alt text](https://github.com/MuhammedBuyukkinaci/TensorFlow-Image-Classification-Convolutional-Neural-Networks/blob/master/accuracy.png)
+![alt text](https://github.com/MuhammedBuyukkinaci/TensorFlow-Image-Classification-Convolutional-Neural-Networks/blob/master/MY_ARCHITECTURE.png)
 
 Cross entropy loss is plotted below.
 
