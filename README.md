@@ -2,6 +2,9 @@
 
 ```pip install -r requirements.txt```
 
+# Training
+```python tensorflow_binary_image_classification1.py ```
+
 # TensorFlow-Image-Classification-Convolutional-Neural-Networks
 
 You can read all story from https://medium.com/@mubuyuk51/tensorflow-i%CC%87le-i%CC%87kili-binary-resim-s%C4%B1n%C4%B1fland%C4%B1rma-69b15085f92c in Turkish.
@@ -40,11 +43,3 @@ Cross entropy loss is plotted below.
 The architecture used in CNN's is below:
 
 ![alt text](https://github.com/MuhammedBuyukkinaci/TensorFlow-Image-Classification-Convolutional-Neural-Networks/blob/master/MY_ARCHITECTURE.png) 
-
-A sample photo of glass:
-
-![alt text](https://github.com/MuhammedBuyukkinaci/TensorFlow-Image-Classification-Convolutional-Neural-Networks/blob/master/glass_16.jpg)
-
-A sample photo of table:
-
-![alt text](https://github.com/MuhammedBuyukkinaci/TensorFlow-Image-Classification-Convolutional-Neural-Networks/blob/master/table_1488.jpg)
