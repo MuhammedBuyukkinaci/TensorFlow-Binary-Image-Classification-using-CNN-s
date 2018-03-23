@@ -1,17 +1,6 @@
-# Dependencies- Written in Python 3. 
-TensorFlow
+# Dependencies
 
-OpenCV
-
-Numpy
-
-Tqdm
-
-pandas
-
-matplotlib
-
-```pip install requirements.txt```
+```pip install -r requirements.txt```
 
 # TensorFlow-Image-Classification-Convolutional-Neural-Networks
 
