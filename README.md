@@ -31,7 +31,7 @@ Classes are table & glass.
 
 Classes are equal(3200 glass - 3200 table). 
 
-# CPU OR GPU
+# CPU or GPU
 I trained on GTX 1050. 1 epoch lasted 3-4 minutes approximately.
 
 If you are using CPU, change the lines below:
@@ -45,14 +45,14 @@ to
 ```
 with tf.Session() as sess
 ```
-# ARCHITECTURE
+# Architecture
 
 1 INPUT LAYER, 4 CONVOLUTION LAYER, 4 POOLING LAYER, 2 FULLY CONNECTED LAYER, 2 DROPOUT LAYER, 1 OUTPUT LAYER.
 The architecture used is below:
 
 ![alt text](https://github.com/MuhammedBuyukkinaci/TensorFlow-Image-Classification-Convolutional-Neural-Networks/blob/master/MY_ARCHITECTURE.png) 
 
-# RESULTS
+# Results
 Accuracy score reached 90 percent on CV after 50 epochs.
 
 ![alt text](https://github.com/MuhammedBuyukkinaci/TensorFlow-Image-Classification-Convolutional-Neural-Networks/blob/master/accuracy.png)
