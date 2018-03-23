@@ -34,7 +34,7 @@ Classes are equal(3200 glass - 3200 table).
 # CPU or GPU
 I trained on GTX 1050. 1 epoch lasted 3-4 minutes approximately.
 
-If you are using CPU, change the lines below:
+If you are using CPU, which I do not recommend, change the lines below:
 ```
 config = tf.ConfigProto(allow_soft_placement=True)
 config.gpu_options.allow_growth = True
