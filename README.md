@@ -11,6 +11,9 @@ pandas
 
 matplotlib
 
+"""
+pip install requirements.txt
+"""
 
 # TensorFlow-Image-Classification-Convolutional-Neural-Networks
 
