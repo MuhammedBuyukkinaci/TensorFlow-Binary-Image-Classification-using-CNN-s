@@ -4,6 +4,8 @@
 
 # TensorFlow-Image-Classification-Convolutional-Neural-Networks
 
+You can read all story from https://medium.com/@mubuyuk51/tensorflow-i%CC%87le-i%CC%87kili-binary-resim-s%C4%B1n%C4%B1fland%C4%B1rma-69b15085f92c in Turkish.
+
 This is a repository containing datasets of 6400 training images and 1243 testing images. 
 
 Classes are table & glass.
