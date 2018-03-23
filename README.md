@@ -7,7 +7,9 @@ This is a binary image classification project using Convolutional Neural Network
 
 # Training
 ```python tensorflow_binary_image_classification1.py ```
-or change directory and 
+
+or change directory run:
+
 ```jupyter lab ``` or ```jupyter notebook ```
 
 # Data
@@ -39,7 +41,14 @@ to
 ```
 with tf.Session() as sess
 ```
+# ARCHITECTURE
 
+1 INPUT LAYER, 4 CONVOLUTION LAYER, 4 POOLING LAYER, 2 FULLY CONNECTED LAYER, 2 DROPOUT LAYER, 1 OUTPUT LAYER.
+The architecture used in CNN's is below:
+
+![alt text](https://github.com/MuhammedBuyukkinaci/TensorFlow-Image-Classification-Convolutional-Neural-Networks/blob/master/MY_ARCHITECTURE.png) 
+
+# RESULTS
 Accuracy score reached 90 percent on CV after 50 epochs.
 
 ![alt text](https://github.com/MuhammedBuyukkinaci/TensorFlow-Image-Classification-Convolutional-Neural-Networks/blob/master/accuracy.png)
@@ -48,7 +57,3 @@ Cross entropy loss is plotted below.
 
 ![alt text](https://github.com/MuhammedBuyukkinaci/TensorFlow-Image-Classification-Convolutional-Neural-Networks/blob/master/loss.png)
 
-1 INPUT LAYER, 4 CONVOLUTION LAYER, 4 POOLING LAYER, 2 FULLY CONNECTED LAYER, 2 DROPOUT LAYER, 1 OUTPUT LAYER.
-The architecture used in CNN's is below:
-
-![alt text](https://github.com/MuhammedBuyukkinaci/TensorFlow-Image-Classification-Convolutional-Neural-Networks/blob/master/MY_ARCHITECTURE.png) 
