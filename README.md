@@ -12,7 +12,7 @@ or
 # Training
 ```python tensorflow_binary_image_classification1.py ```
 
-or change directory run:
+or change directory and run on Terminal:
 
 ```jupyter lab ``` or ```jupyter notebook ```
 
