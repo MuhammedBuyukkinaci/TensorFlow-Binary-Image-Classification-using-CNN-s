@@ -20,7 +20,7 @@ or change directory and run on Terminal:
 This is a repository containing datasets of 6400 training images and 1243 testing images.No problematic image.
 
 Download dataset from [here](
-https://www.dropbox.com/s/ezmsiz0p364shxz/datasets.rar?dl=0). It is 101 MB:
+https://www.dropbox.com/s/ezmsiz0p364shxz/datasets.rar?dl=0). It is 101 MB.
 
 Extract files from datasets.rar. Then put it in TensorFlow-Image-Classification-Convolutional-Neural-Networks folder.
 train_data_bi.npy is containing 6400 training photos with labels.
