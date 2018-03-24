@@ -1,4 +1,4 @@
-# TensorFlow Binary Image Classification using TensorFlow
+# TensorFlow Binary Image Classification using CNN's
 This is a binary image classification project using Convolutional Neural Networks and TensorFlow API (no Keras) on Python 3.
 [Read all story in Turkish](https://medium.com/@mubuyuk51/tensorflow-i%CC%87le-i%CC%87kili-binary-resim-s%C4%B1n%C4%B1fland%C4%B1rma-69b15085f92c).
 # Dependencies
@@ -47,8 +47,7 @@ with tf.Session() as sess
 ```
 # Architecture
 
-1 INPUT LAYER, 4 CONVOLUTION LAYER, 4 POOLING LAYER, 2 FULLY CONNECTED LAYER, 2 DROPOUT LAYER, 1 OUTPUT LAYER.
-The architecture used is below:
+1 input layer, 4 convolution layer, 4 pooling layer, 2 fully connected layer, 2 dropout layer, 1 output layer. The architecture used is below.
 
 ![alt text](https://github.com/MuhammedBuyukkinaci/TensorFlow-Image-Classification-Convolutional-Neural-Networks/blob/master/MY_ARCHITECTURE.png) 
 
