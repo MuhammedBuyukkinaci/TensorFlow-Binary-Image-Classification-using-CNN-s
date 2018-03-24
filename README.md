@@ -12,11 +12,11 @@ or
 # Training
 Training on GPU:
 
-```python binary_classifcation_gpu.py ```
+```python binary_image_classification_GPU.py ```
 
 Training on CPU:
 
-```python binary_classifcation_cpu.py ```
+```python binary_image_classification_CPU.py ```
 
 or change directory and run on Terminal:
 
