@@ -10,7 +10,13 @@ or
 ```pip3 install -r requirements.txt```
 
 # Training
-```python tensorflow_binary_image_classification1.py ```
+Training on GPU:
+
+```python multiclass_classifcation_gpu.py ```
+
+Training on CPU:
+
+```python multiclass_classifcation_cpu.py ```
 
 or change directory and run on Terminal:
 
@@ -45,7 +51,7 @@ with tf.Session(config=config) as sess:
 ```
 to
 ```
-with tf.Session() as sess
+with tf.Session() as sess:
 ```
 # Architecture
 
