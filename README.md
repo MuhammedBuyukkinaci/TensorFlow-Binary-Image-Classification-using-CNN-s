@@ -28,7 +28,7 @@ No MNIST or CIFAR-10.
 This is a repository containing datasets of 6400 training images and 1243 testing images.No problematic image.
 
 Download .rar extension version from [here](
-https://www.dropbox.com/s/ezmsiz0p364shxz/datasets.rar?dl=0) or .zip extension from [here](
+https://www.dropbox.com/s/ezmsiz0p364shxz/datasets.rar?dl=0) or .zip extension version from [here](
 https://www.dropbox.com/s/cx6f238aoxjem6j/datasets_zip.zip?dl=0).
 It is 101 MB.
 
