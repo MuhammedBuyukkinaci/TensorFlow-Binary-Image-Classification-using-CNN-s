@@ -18,7 +18,7 @@ Training on CPU:
 
 ```python binary_image_classification_CPU.py ```
 
-or change directory and run on Terminal:
+or download .ipynb file from [here](https://github.com/MuhammedBuyukkinaci/My-Jupyter-Files-1/blob/master/tensorflow_binary_image_classification2.ipynb) and run:
 
 ```jupyter lab ``` or ```jupyter notebook ```
 
