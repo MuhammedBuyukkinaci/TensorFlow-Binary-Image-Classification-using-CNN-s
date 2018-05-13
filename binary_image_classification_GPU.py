@@ -201,7 +201,6 @@ merged_summary_op = tf.summary.merge_all()
 #Starting Empty lists to keep results
 acc_list = []
 cross_entropy_list = []
-acc_train = []
 saver = tf.train.Saver()
 
 with tf.Session() as sess:
@@ -212,7 +211,6 @@ with tf.Session() as sess:
             #Feeding step_size-amount data with 0.8 keeping probabilities on DROPOUT LAYERS
             _ , c , summary,d = sess.run([train,cross_entropy,merged_summary_op,acc],feed_dict={x:X[j:j+step_size] , y_true:Y[j:j+step_size] ,hold_prob1:0.8,hold_prob2:0.8})
             summary_writer.add_summary(summary, i * total_batch + j)
-	    acc_train.append(d)
             #Calculating CV loss and CV accuracy
             #mean_of_cross_entropy = np.mean([sess.run(cross_entropy,feed_dict={x:cv_x[:400],y_true:cv_y[:400] ,hold_prob1:1.0,hold_prob2:1.0}),sess.run(cross_entropy,feed_dict={x:cv_x[400:800],y_true:cv_y[400:800] ,hold_prob1:1.0,hold_prob2:1.0})])
             #mean_of_acc = np.mean([sess.run(acc,feed_dict={x:cv_x[:400],y_true:cv_y[:400] ,hold_prob1:1.0,hold_prob2:1.0}),sess.run(acc,feed_dict={x:cv_x[400:800],y_true:cv_y[400:800] ,hold_prob1:1.0,hold_prob2:1.0})])
