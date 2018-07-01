@@ -29,9 +29,11 @@ No MNIST or CIFAR-10.
 
 This is a repository containing datasets of 6400 training images and 1243 testing images.No problematic image.
 
-Download .rar extension version from [here](
+Data is in datasets.7z . Just extract train_data_bi.npy and test_data_bi.npy .
+
+7z may not work on Linux and MacOS. You can download .rar extension version from [here](
 https://www.dropbox.com/s/ezmsiz0p364shxz/datasets.rar?dl=0) or .zip extension version from [here](
-https://www.dropbox.com/s/cx6f238aoxjem6j/datasets_zip.zip?dl=0).
+https://www.dropbox.com/s/cx6f238aoxjem6j/datasets_zip.zip?dl=0). Copy train_data_bi.npy and test_data_bi.npy to TensorFlow-Binary-Image-Classification-using-CNN-s folder.
 It is 101 MB.
 
 Extract files from datasets.rar. Then put it in TensorFlow-Image-Classification-Convolutional-Neural-Networks folder.
