@@ -263,10 +263,10 @@ with tf.Session() as sess:
     test_loss_list = []
     for v in range(0,len(test_x)-int(len(test_x) % validating_size),validating_size):
         acc_on_test,loss_on_test,preds = sess.run([acc,cross_entropy,tf.nn.softmax(y_pred)],feed_dict=
-																						{x:test_x[v:v+validating_size] ,
-																						y_true:test_y[v:v+validating_size] ,
-																						hold_prob1:1.0,
-																						hold_prob2:1.0})
+                                                                                    {x:test_x[v:v+validating_size] ,
+                                                                                    y_true:test_y[v:v+validating_size] ,
+                                                                                    hold_prob1:1.0,
+                                                                                    hold_prob2:1.0})
         
         auc_on_test = roc_auc_score(test_y[v:v+validating_size],preds)
         test_acc_list.append(acc_on_test)
