@@ -77,7 +77,7 @@ tf.reset_default_graph()
 
 #Defining Placeholders
 x = tf.placeholder(tf.float32,shape=[None,IMG_SIZE_ALEXNET,IMG_SIZE_ALEXNET,3])
-y_true = tf.placeholder(tf.float32,shape=[None,2])
+y_true = tf.placeholder(tf.float32,shape=[None,output_classes])
 
 ##CONVOLUTION LAYER 1
 #Weights for layer 1
@@ -209,8 +209,7 @@ print(y_pred)
 
 #Defining loss function
 
-cross_entropy = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits_v2(labels=y_true,
-																	logits=y_pred))
+cross_entropy = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits_v2(labels=y_true,logits=y_pred))
 
 #Defining objective
 train = tf.train.AdamOptimizer(learning_rate=0.00001).minimize(cross_entropy)
@@ -301,7 +300,7 @@ with tf.Session() as session:
 print(np.array(k).shape)
 
 #Reshaping k
-k = np.array(k).reshape(64,2)
+k = np.array(k).reshape(64,output_classes)
 
 print(k[0])
 
