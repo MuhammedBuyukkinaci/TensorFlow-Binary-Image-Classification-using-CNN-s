@@ -11,15 +11,16 @@ from tqdm import tqdm#loop progress bar
 from sklearn.metrics import roc_auc_score    
 import matplotlib.pyplot as plt # for visualizations
 import tensorflow as tf # For tensor operations
+import pandas as pd # for manipulating data
 #If you are using CPU in a computer having GPU, the line below should be in your code.
 os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 
 #HYPERPARAMETERS
-# our photos are in the size of 80,80,3
+# our photos are in the size of (80,80,3)
 IMG_SIZE = 80
 
-epochs = 3
-step_size = 32
+epochs = 30
+step_size = 8
 IMG_SIZE_ALEXNET = 227
 validating_size = 40
 nodes_fc1 = 4096
@@ -40,7 +41,7 @@ train_data = np.load('train_data_bi.npy')
 #test_data = process_test_data()
 test_data = np.load('test_data_bi.npy')
 
-#In order to implement ALEXNET, we are resizing them to 
+#In order to implement ALEXNET, we are resizing them to (227,227,3)
 for i in range(len(train_data)):
 	train_data[i][0] = cv2.resize(train_data[i][0],(IMG_SIZE_ALEXNET,IMG_SIZE_ALEXNET))
 
@@ -279,13 +280,15 @@ with tf.Session() as sess:
     print("Test Results are below:")
     print("Accuracy:",test_acc_,"Loss:",test_loss_,"AUC:",test_auc_)
 
-	
-import pandas as pd
 
-pd.Series(acc_list).plot(kind='line',title='Accuracy on CV data')
-plt.show()
-
-pd.Series(loss_list).plot(kind='line',figsize=(12,7),title='CV ERROR')
+f,ax=plt.subplots(1,3,figsize=(12,3))
+pd.Series(acc_list).plot(kind='line',title='Accuracy on CV data',ax=ax[0])
+pd.Series(loss_list).plot(kind='line',figsize=(12,7),title='Loss on CV data',ax=ax[1])
+pd.Series(auc_list).plot(kind='line',figsize=(12,7),title='AUC on CV data',ax=ax[2])
+plt.subplots_adjust(wspace=0.8)
+ax[0].set_title('Accuracy on CV data')
+ax[1].set_title('Loss on CV data')
+ax[2].set_title('Loss on CV data')
 plt.show()
 
 #Restoring a pretrained

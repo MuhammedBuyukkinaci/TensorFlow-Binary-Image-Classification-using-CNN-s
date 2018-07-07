@@ -9,15 +9,6 @@ or
 
 ```pip3 install -r requirements.txt```
 
-# Training
-Training on GPU:
-
-```python binary_image_classification_GPU.py ```
-
-Training on CPU:
-
-```python binary_image_classification_CPU.py ```
-
 # Notebook
 
 Download .ipynb file from [here](https://github.com/MuhammedBuyukkinaci/My-Jupyter-Files-1/blob/master/tensorflow_binary_image_classification2.ipynb) and run:
@@ -45,8 +36,17 @@ Classes are table & glass.
 
 Classes are equal(3200 glass - 3200 table). 
 
+# Training
+Training on GPU:
+
+```python binary_image_classification_GPU.py ```
+
+Training on CPU:
+
+```python binary_image_classification_CPU.py ```
+
 # CPU or GPU
-I trained on GTX 1050. 1 epoch lasted 3-4 minutes approximately.
+I trained on GTX 1050. 1 epoch lasted 20 seconds approximately.
 
 If you are using CPU, which I do not recommend, change the lines below:
 ```
@@ -61,18 +61,13 @@ with tf.Session() as sess:
 ```
 # Architecture
 
-1 input layer, 4 convolution layer, 4 pooling layer, 2 fully connected layer, 2 dropout layer, 1 output layer. The architecture used is below.
-
+AlexNet is used as architecture. 5 convolution layers and 3 Fully Connected Layers with 0.5 Dropout Ratio. 60 million Parameters.
 ![alt text](https://github.com/MuhammedBuyukkinaci/TensorFlow-Image-Classification-Convolutional-Neural-Networks/blob/master/alexnet_architecture.png) 
 
 # Results
-Accuracy score reached 90 percent on CV after 50 epochs.
+Trained 5 epochs. Accuracy, AUC and Loss graphs are below:
 
-![alt text](https://github.com/MuhammedBuyukkinaci/TensorFlow-Image-Classification-Convolutional-Neural-Networks/blob/master/accuracy.png)
-
-Cross entropy loss is plotted below.
-
-![alt text](https://github.com/MuhammedBuyukkinaci/TensorFlow-Image-Classification-Convolutional-Neural-Networks/blob/master/loss.png)
+![alt text](https://github.com/MuhammedBuyukkinaci/TensorFlow-Image-Classification-Convolutional-Neural-Networks/blob/master/results.png)
 
 # Predictions
 
