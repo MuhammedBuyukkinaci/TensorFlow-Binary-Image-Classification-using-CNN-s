@@ -63,7 +63,7 @@ with tf.Session() as sess:
 
 1 input layer, 4 convolution layer, 4 pooling layer, 2 fully connected layer, 2 dropout layer, 1 output layer. The architecture used is below.
 
-![alt text](https://github.com/MuhammedBuyukkinaci/TensorFlow-Image-Classification-Convolutional-Neural-Networks/blob/master/MY_ARCHITECTURE.png) 
+![alt text](https://github.com/MuhammedBuyukkinaci/TensorFlow-Image-Classification-Convolutional-Neural-Networks/blob/master/alexnet_architecture.png) 
 
 # Results
 Accuracy score reached 90 percent on CV after 50 epochs.
