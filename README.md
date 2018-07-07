@@ -22,19 +22,13 @@ This is a repository containing datasets of 6400 training images and 1243 testin
 
 Data is in datasets.7z . Just extract train_data_bi.npy and test_data_bi.npy .
 
-7z may not work on Linux and MacOS. You can download .rar extension version from [here](
-https://www.dropbox.com/s/ezmsiz0p364shxz/datasets.rar?dl=0) or .zip extension version from [here](
-https://www.dropbox.com/s/cx6f238aoxjem6j/datasets_zip.zip?dl=0).
-It is 101 MB.
-
-Extract files from datasets.rar. Then put it in TensorFlow-Image-Classification-Convolutional-Neural-Networks folder.
 train_data_bi.npy is containing 6400 training photos with labels.
 
 test_data_bi.npy is containing 1243 testing photos with labels.
 
-Classes are table & glass.
+Classes are table & glass. Classes are equal(3200 glass - 3200 table).
 
-Classes are equal(3200 glass - 3200 table). 
+Download pure data from [here](https://www.kaggle.com/mbkinaci/glasses-tables). Warning 1.4 GB.
 
 # Training
 Training on GPU:
