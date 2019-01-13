@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/muhammed/Documents/GitHub/TensorFlow-Binary-Image-Classification-using-CNN-s/CNN_MC.ckpt"
+all_model_checkpoint_paths: "/home/muhammed/Documents/GitHub/TensorFlow-Binary-Image-Classification-using-CNN-s/CNN_MC.ckpt"
