@@ -16,8 +16,6 @@ No MNIST or CIFAR-10.
 
 This is a repository containing datasets of 5000 training images and 1243 testing images.No problematic image.
 
-Data is in datasets.7z . Just extract train_data_bi.npy and test_data_bi.npy .
-
 train_data_bi.npy is containing 5000 training photos with labels.
 
 test_data_bi.npy is containing 1243 testing photos with labels.
@@ -48,5 +46,3 @@ Trained 5 epochs. Accuracy, AUC and Loss graphs are below:
 # Predictions
 
 ![alt text](https://github.com/MuhammedBuyukkinaci/TensorFlow-Binary-Image-Classification-using-CNN-s/blob/master/binary_preds.png)
-
-
